@@ -20,80 +20,80 @@ This systematic approach facilitated a deeper understanding of product performan
 
 ### Python Scripts Prototype
 
- - 1. Importing Libraries
+- 1. Importing Libraries
  ```python
- import pandas as pd
- import pymysql
- from sqlalchemy import create_engine
+    import pandas as pd
+    import pymysql
+    from sqlalchemy import create_engine
 
- df = pd.read_csv('WalMart_groceries.csv', low_memory=False)
- ```
+    df = pd.read_csv('WalMart_groceries.csv', low_memory=False)
+```
 
- - 2. Analysis of Dataset
- ```python
- df.head()
+- 2. Analysis of Dataset
+    ```python
+    df.head()
 
- df.describe()
+    df.describe()
 
- df.columns
+    df.columns
 
- df.info()
+    df.info()
 
- df.shape
+    df.shape
 
- df.isnull().sum()
+    df.isnull().sum()
 
- df.duplicated().sum()
- ```
+    df.duplicated().sum()
+    ```
 
- - 3. Data Cleaning and Standardization
- ```python
- # Lowercase all column names
- df.columns = df.columns.str.lower()
+- 3. Data Cleaning and Standardization
+    ```python
+    # Lowercase all column names
+    df.columns = df.columns.str.lower()
 
- # Dropping Promotion Column from the dataset
- df.drop(columns=['promotion'], inplace=True)
- ```
+    # Dropping Promotion Column from the dataset
+    df.drop(columns=['promotion'], inplace=True)
+    ```
 
- ```python
- ## Fixing the column Datatype, removing String value and calculating total_price
+    ```python
+    ## Fixing the column Datatype, removing String value and calculating total_price
 
- # Cleaning product_size: Removing commas and strip spaces
- df['product_size'] = df['product_size'].str.replace(',', '').str.strip()
+    # Cleaning product_size: Removing commas and strip spaces
+    df['product_size'] = df['product_size'].str.replace(',', '').str.strip()
 
- # Converting product_size to float, handle errors if any
- df['product_size'] = pd.to_numeric(df['product_size'], errors='coerce')
+    # Converting product_size to float, handle errors if any
+    df['product_size'] = pd.to_numeric(df['product_size'], errors='coerce')
 
- # Handling NaN values
- df['product_size'] = df['product_size'].fillna(0).astype(int)
+    # Handling NaN values
+    df['product_size'] = df['product_size'].fillna(0).astype(int)
 
- # Calculating the total_price column
- df['total_price'] = df['price_current'] * df['product_size']
+    # Calculating the total_price column
+    df['total_price'] = df['price_current'] * df['product_size']
 
- print(df)
- ```
+    print(df)
+    ```
 
- ```python
+    ```python
 
- df.columns
+    df.columns
 
- df.heads()
- ```
+    df.heads()
+    ```
 
- - 4. Exporting the cleaned .csv
- ```python
- df.to_csv('walmart_cleaned.csv', index=False)
- ```
+- 4. Exporting the cleaned .csv
+    ```python
+    df.to_csv('walmart_cleaned.csv', index=False)
+    ```
 
- - 5. Connecting to SQL
- ```python
- engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/WalMart')
- ```
+- 5. Connecting to SQL
+    ```python
+    engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/WalMart')
+    ```
 
- - 6. Exporting the cleaned .csv to SQL
- ```python
- df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
- ```
+- 6. Exporting the cleaned .csv to SQL
+    ```python
+    df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
+    ```
 
 ## *Insights Analysis*
 
