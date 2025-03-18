@@ -20,7 +20,7 @@ This systematic approach facilitated a deeper understanding of product performan
 
 ### Python Scripts Prototype
 
-- 1. Importing Libraries
+ - 1. Importing Libraries
  ```python
  import pandas as pd
  import pymysql
@@ -29,7 +29,7 @@ This systematic approach facilitated a deeper understanding of product performan
  df = pd.read_csv('WalMart_groceries.csv', low_memory=False)
  ```
 
-- 2. Analysis of Dataset
+ - 2. Analysis of Dataset
  ```python
  df.head()
 
@@ -46,7 +46,7 @@ This systematic approach facilitated a deeper understanding of product performan
  df.duplicated().sum()
  ```
 
-- 3. Data Cleaning and Standardization
+ - 3. Data Cleaning and Standardization
  ```python
  # Lowercase all column names
  df.columns = df.columns.str.lower()
@@ -80,34 +80,36 @@ This systematic approach facilitated a deeper understanding of product performan
  df.heads()
  ```
 
-
-- 4. Exporting the cleaned .csv
+ - 4. Exporting the cleaned .csv
  ```python
  df.to_csv('walmart_cleaned.csv', index=False)
  ```
 
-- 5. Connecting to SQL
+ - 5. Connecting to SQL
  ```python
  engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/WalMart')
  ```
 
-- 6. Exporting the cleaned .csv to SQL
+ - 6. Exporting the cleaned .csv to SQL
  ```python
  df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
  ```
 
- ## *Insights Analysis*
+## *Insights Analysis*
 
- ### SQL Queries Prototype
+### SQL Queries Prototype
 
 
- ## *Data Visualization*
+
+
+## *Data Visualization*
 
 - Dashboard | Overview
 
 <img src="dashboard.png" alt="Dashboard | overview" width">
 
 ## *Impact*
+
 
 
 
@@ -122,5 +124,5 @@ This systematic approach facilitated a deeper understanding of product performan
 ---
 
 <div align="center">
-    <i> This Project was solely exicuted by //<b>Nomaan Ansari</b>//</i>
+    <i> This Project was solely exicuted by // <b>Nomaan Ansari</b> //</i>
 </div>
