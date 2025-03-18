@@ -21,13 +21,13 @@ This systematic approach facilitated a deeper understanding of product performan
 ### Python Scripts Prototype
 
 - 1. Importing Libraries
- ```python
+    ```python
     import pandas as pd
     import pymysql
     from sqlalchemy import create_engine
 
     df = pd.read_csv('WalMart_groceries.csv', low_memory=False)
-```
+    ```
 
 - 2. Analysis of Dataset
     ```python
