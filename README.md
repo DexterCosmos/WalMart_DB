@@ -57,20 +57,29 @@ This systematic approach facilitated a deeper understanding of product performan
     # Dropping Promotion Column from the dataset
     df.drop(columns=['promotion'], inplace=True)
     ```
+- Fixing the column Datatype, removing String value and calculating total_price
 
     ```python
-    ## Fixing the column Datatype, removing String value and calculating total_price
-
     # Cleaning product_size: Removing commas and strip spaces
+
     df['product_size'] = df['product_size'].str.replace(',', '').str.strip()
+    ```
 
+    ```python
     # Converting product_size to float, handle errors if any
+
     df['product_size'] = pd.to_numeric(df['product_size'], errors='coerce')
+    ```
 
+    ```python
     # Handling NaN values
-    df['product_size'] = df['product_size'].fillna(0).astype(int)
 
+    df['product_size'] = df['product_size'].fillna(0).astype(int)
+    ```
+    
+    ```python
     # Calculating the total_price column
+
     df['total_price'] = df['price_current'] * df['product_size']
 
     print(df)
