@@ -12,11 +12,12 @@ This project involves the comprehensive analysis of a Walmart product dataset co
 Using Python, the Walmart products dataset underwent rigorous analysis to extract meaningful insights. Key steps included:
 
 - **Data Cleaning and Preprocessing**: Python libraries such as Pandas and NumPy were utilized to handle missing values, standardize data formats, and remove duplicates, ensuring data integrity.
-- **Exploratory Data Analysis (EDA)**: Visualizations created with libraries like Matplotlib and Seaborn highlighted trends, outliers, and relationships within the data.
+
 - **Key Insights Generation**: Metrics such as product sales performance, inventory trends, and customer preferences were derived, providing actionable business intelligence.
+
 - **Automated Reporting**: Python scripts were developed for efficiency, allowing repeatable and scalable analysis workflows.
 
-This systematic approach facilitated a deeper understanding of product performance and informed strategic decision-making. Let me know if you'd like to expand on specific parts!
+This systematic approach facilitated a deeper understanding of product performance and informed strategic decision-making.
 
 ### Python Scripts Prototype
 
@@ -76,7 +77,7 @@ This systematic approach facilitated a deeper understanding of product performan
 
     df['product_size'] = df['product_size'].fillna(0).astype(int)
     ```
-    
+
     ```python
     # Calculating the total_price column
 
@@ -133,9 +134,13 @@ This systematic approach facilitated a deeper understanding of product performan
 ## *Tools*
 
 - Python - Libraries [Pandas, NumPy, pymysql, sqlalchemy]
+
 - SQL
+
 - Power BI
+
 - Excel
+
 - Jupyter Notebook
 
 ---
