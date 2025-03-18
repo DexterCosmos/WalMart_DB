@@ -20,7 +20,7 @@ This systematic approach facilitated a deeper understanding of product performan
 
 ### Python Scripts Prototype
 
-- 1. Importing Libraries
+1. Importing Libraries
 
     ```python
     import pandas as pd
@@ -30,7 +30,7 @@ This systematic approach facilitated a deeper understanding of product performan
     df = pd.read_csv('WalMart_groceries.csv', low_memory=False)
     ```
 
-- 2. Analysis of Dataset
+2. Analysis of Dataset
 
     ```python
     df.head()
@@ -48,7 +48,7 @@ This systematic approach facilitated a deeper understanding of product performan
     df.duplicated().sum()
     ```
 
-- 3. Data Cleaning and Standardization
+3. Data Cleaning and Standardization
 
     ```python
     # Lowercase all column names
@@ -83,19 +83,19 @@ This systematic approach facilitated a deeper understanding of product performan
     df.heads()
     ```
 
-- 4. Exporting the cleaned .csv
+4. Exporting the cleaned .csv
 
     ```python
     df.to_csv('walmart_cleaned.csv', index=False)
     ```
 
-- 5. Connecting to SQL
+5. Connecting to SQL
 
     ```python
     engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/WalMart')
     ```
 
-- 6. Exporting the cleaned .csv to SQL
+6. Exporting the cleaned .csv to SQL
 
     ```python
     df.to_sql(name='store', con=engine_sql, if_exists='replace', index=False)
