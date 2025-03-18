@@ -18,7 +18,7 @@ Using Python, the Walmart products dataset underwent rigorous analysis to extrac
 
 This systematic approach facilitated a deeper understanding of product performance and informed strategic decision-making. Let me know if you'd like to expand on specific parts!
 
-### *Python Scripts Prototype*
+### Python Scripts Prototype
 
 - 1. Importing Libraries
  ```python
@@ -98,7 +98,7 @@ This systematic approach facilitated a deeper understanding of product performan
 
  ## *Insights Analysis*
 
- ### *SQL Queries Prototype*
+ ### SQL Queries Prototype
 
 
  ## *Data Visualization*
