@@ -106,7 +106,9 @@ This systematic approach facilitated a deeper understanding of product performan
 
 - Dashboard | Overview
 
-<img src="dashboard.png" alt="Dashboard | overview" width">
+<div>
+ <img src="dashboard.png" alt="Dashboard | overview" width">
+</div>
 
 ## *Impact*
 
