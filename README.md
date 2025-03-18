@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="font-family: Times New Roman, serif">
     <img src="" alt="Banner">
     <h1><b>Walmart Products DB</b></h1>
 </div>
