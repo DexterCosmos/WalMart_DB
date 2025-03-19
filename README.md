@@ -3,7 +3,7 @@
     <h1><b>Walmart Products DB</b></h1>
 </div>
 
-## *Introduction*
+# **Introduction**
 
 This project involves the comprehensive analysis of a Walmart product dataset containing **`568,534`** records and **`16`** columns. 
 The dataset has been meticulously cleaned and standardized using Python to ensure accuracy and consistency. 
