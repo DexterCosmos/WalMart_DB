@@ -123,7 +123,7 @@ This included uncovering patterns, trends, and performance metrics to better und
 
 - ### SQL Queries Prototype
 
-    For more queries refer to **`walmart_business.sql`** file title.
+    For more related to the business SQL queries refer to **`walmart_business.sql`** file title.
 
 ```sql
 -- Shipping Location Performance
