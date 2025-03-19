@@ -22,7 +22,7 @@ Using Python, the Walmart products dataset underwent rigorous analysis to extrac
 
 This systematic approach facilitated a deeper understanding of product performance and informed strategic decision-making.
 
-- ## Python Scripts Prototype
+## Python Scripts Prototype
 
 1. Importing Libraries
 
@@ -121,9 +121,9 @@ df.to_sql(name='walmart_db', con=engine_sql, if_exists='replace', index=False)
 Using SQL, key business insights were analyzed from the Walmart products dataset. 
 This included uncovering patterns, trends, and performance metrics to better understand product behavior and overall business performance.
 
-- ## SQL Queries Prototype
+## SQL Queries Prototype
 
-    For more related to the business SQL queries refer to **`walmart_business.sql`** file title.
+For more related to the business SQL queries refer to **`walmart_business.sql`** file title.
 
 ```sql
 -- Shipping Location Performance
