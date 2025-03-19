@@ -110,7 +110,7 @@ df.to_csv('walmart_cleaned.csv', index=False)
 engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/walmart')
 ```
 
-6. Exporting the cleaned .csv to SQL
+6. Exporting the Data to SQL
 
 ```python
 df.to_sql(name='walmart_db', con=engine_sql, if_exists='replace', index=False)
