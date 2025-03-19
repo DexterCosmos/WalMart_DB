@@ -118,7 +118,8 @@ df.to_sql(name='walmart_db', con=engine_sql, if_exists='replace', index=False)
 
 ## *Insights Analysis*
 
-Using SQL, key business insights were analyzed from the Walmart products dataset. This included uncovering patterns, trends, and performance metrics to better understand product behavior and overall business performance.
+Using SQL, key business insights were analyzed from the Walmart products dataset. 
+This included uncovering patterns, trends, and performance metrics to better understand product behavior and overall business performance.
 
 - ### SQL Queries Prototype
 
