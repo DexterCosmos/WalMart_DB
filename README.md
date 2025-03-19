@@ -192,6 +192,17 @@ GROUP BY product_name, category, season;
 ## *Impact*
 
 
+The Walmart Products Database project has significantly streamlined data analysis and visualization for stakeholders, driving impactful business insights. Key outcomes include:
+
+- **Enhanced Data Integrity**: With Python-powered data cleaning and standardization, the dataset of **568,534 records** was transformed into an accurate and consistent foundation for analysis.
+
+- **Actionable Business Insights**: SQL-driven analysis unearthed crucial patterns such as revenue growth trends, seasonal product performance, and shipping location rankings. These insights inform strategic decisions, optimizing Walmart's operations and market strategy.
+
+- **Efficiency Through Automation**: Python scripts enabled repeatable and scalable workflows, saving valuable time for analysts and ensuring consistent analysis.
+
+- **Visual Clarity for Stakeholders**: Power BI dashboards provided stakeholders with clear, actionable perspectives, enhancing decision-making through intuitive data storytelling.
+
+The project empowers data-driven strategies, demonstrating a robust blend of technical expertise and business acumen.
 
 
 ## *Tools*
