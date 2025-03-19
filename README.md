@@ -10,7 +10,7 @@ The dataset has been meticulously cleaned and standardized using Python to ensur
 Leveraging SQL for in-depth analysis, we uncovered key business insights and performance metrics for products. 
 To make these findings accessible and actionable for stakeholders, the data has been visualized using Power BI, offering clear and impactful perspectives on trends and opportunities.
 
-# **Analysis**
+# **Database Analysis**
 
 Using Python, the Walmart products dataset underwent rigorous analysis to extract meaningful insights. Key steps included:
 
