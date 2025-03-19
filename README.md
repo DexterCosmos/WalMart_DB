@@ -207,7 +207,7 @@ The project empowers data-driven strategies, demonstrating a robust blend of tec
 
 ## *Tools*
 
-- Python - Libraries [Pandas, NumPy, pymysql, sqlalchemy]
+- Python - Libraries (Pandas, NumPy, pymysql, sqlalchemy)
 
 - SQL
 
