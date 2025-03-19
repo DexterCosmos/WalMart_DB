@@ -10,7 +10,7 @@ The dataset has been meticulously cleaned and standardized using Python to ensur
 Leveraging SQL for in-depth analysis, we uncovered key business insights and performance metrics for products. 
 To make these findings accessible and actionable for stakeholders, the data has been visualized using Power BI, offering clear and impactful perspectives on trends and opportunities.
 
-## *Analysis*
+# **Analysis**
 
 Using Python, the Walmart products dataset underwent rigorous analysis to extract meaningful insights. Key steps included:
 
@@ -22,7 +22,7 @@ Using Python, the Walmart products dataset underwent rigorous analysis to extrac
 
 This systematic approach facilitated a deeper understanding of product performance and informed strategic decision-making.
 
-- ### Python Scripts Prototype
+- ## Python Scripts Prototype
 
 1. Importing Libraries
 
@@ -116,12 +116,12 @@ engine_sql = create_engine('mysql+pymysql://root:Cosmos.90@localhost:3306/walmar
 df.to_sql(name='walmart_db', con=engine_sql, if_exists='replace', index=False)
 ```
 
-## *Insights Analysis*
+# **Insights Analysis**
 
 Using SQL, key business insights were analyzed from the Walmart products dataset. 
 This included uncovering patterns, trends, and performance metrics to better understand product behavior and overall business performance.
 
-- ### SQL Queries Prototype
+- ## SQL Queries Prototype
 
     For more related to the business SQL queries refer to **`walmart_business.sql`** file title.
 
@@ -181,7 +181,7 @@ FROM walmart_db
 GROUP BY product_name, category, season;
 ```
 
-## *Data Visualization*
+# **Data Visualization**
 
 - Dashboard | Overview
 
@@ -189,7 +189,7 @@ GROUP BY product_name, category, season;
  <img src="dashboard.png" alt="Dashboard | overview" width">
 </div>
 
-## *Impact*
+# **Impact**
 
 
 The Walmart Products Database project has significantly streamlined data analysis and visualization for stakeholders, driving impactful business insights. Key outcomes include:
@@ -205,7 +205,7 @@ The Walmart Products Database project has significantly streamlined data analysi
 The project empowers data-driven strategies, demonstrating a robust blend of technical expertise and business acumen.
 
 
-## *Tools*
+# **Tools**
 
 - Python - Libraries (Pandas, NumPy, pymysql, sqlalchemy)
 
