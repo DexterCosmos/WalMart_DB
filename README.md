@@ -174,7 +174,7 @@ SELECT
         WHEN MONTH(rundate) IN (12, 1, 2) THEN 'Winter'
         WHEN MONTH(rundate) IN (3, 4, 5) THEN 'Spring'
         WHEN MONTH(rundate) IN (6, 7, 8) THEN 'Summer'
-        ELSE 'Autumn'
+        ELSE `Autumn`
     END AS season,
     SUM(total_price) AS seasonal_sales
 FROM walmart_db
