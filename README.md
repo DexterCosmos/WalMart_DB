@@ -1,5 +1,5 @@
 <div align="center" style="font-family: Times New Roman, serif">
-    <img src="" alt="Banner">
+    <img src="images/banner.png" alt="Banner" width="500">
     <h1><b>Walmart Products DB</b></h1>
 </div>
 
