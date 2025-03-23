@@ -183,10 +183,22 @@ GROUP BY product_name, category, season;
 
 # **Data Visualization**
 
-- Dashboard | Overview
+- Dashboard
 
 <div>
  <img src="dashboard.png" alt="Dashboard | overview" width">
+</div>
+
+- Dashboard | Overview
+
+<div>
+ <img src="dashboard-1.png" alt="Dashboard | overview" width">
+</div>
+
+- Dashboard | Review
+
+<div>
+ <img src="dashboard-2.png" alt="Dashboard | overview" width">
 </div>
 
 # **Impact**
