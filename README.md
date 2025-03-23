@@ -186,19 +186,19 @@ GROUP BY product_name, category, season;
 - Dashboard
 
 <div>
- <img src="dashboard.png" alt="Dashboard">
+ <img src="./images/dashboard.png" alt="Dashboard">
 </div>
 
 - Dashboard | Overview
 
 <div>
- <img src="dashboard-2.png" alt="Dashboard | overview">
+ <img src="./images/dashboard-2.png" alt="Dashboard | overview">
 </div>
 
 - Dashboard | Review
 
 <div>
- <img src="dashboard-3.png" alt="Dashboard | review">
+ <img src="./images/dashboard-3.png" alt="Dashboard | review">
 </div>
 
 # **Impact**
